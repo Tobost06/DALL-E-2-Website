@@ -1,0 +1,99 @@
+html {
+    Color: white;
+}
+
+body {
+  background-color:rgb(24,26,27);
+}
+
+font {
+  font-family: Tahoma;
+}
+
+h1 {
+  background-color: rgb(71, 123, 130);
+}
+
+a:link {
+    color: rgb(178, 178, 178);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: rgb(178, 178, 178);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(134, 134, 134);
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: rgb(69, 91, 94);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #242729;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: 1px solid #7e7e7e;
+}
+
+ li {
+   float: left;
+}
+  
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #666;
+  text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+   background-color: #111;
+}
+ 
+li a.active {
+   background-color: #477b82;
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #7e7e7e;
+  float: left;
+  width: 180px;
+  height: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #555555;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
